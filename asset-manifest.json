@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/cloneMovieApp/static/js/main.51f31a36.chunk.js",
+    "main.js.map": "/cloneMovieApp/static/js/main.51f31a36.chunk.js.map",
+    "runtime-main.js": "/cloneMovieApp/static/js/runtime-main.6b143397.js",
+    "runtime-main.js.map": "/cloneMovieApp/static/js/runtime-main.6b143397.js.map",
+    "static/js/2.e9ada832.chunk.js": "/cloneMovieApp/static/js/2.e9ada832.chunk.js",
+    "static/js/2.e9ada832.chunk.js.map": "/cloneMovieApp/static/js/2.e9ada832.chunk.js.map",
+    "index.html": "/cloneMovieApp/index.html",
+    "static/js/2.e9ada832.chunk.js.LICENSE.txt": "/cloneMovieApp/static/js/2.e9ada832.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b143397.js",
+    "static/js/2.e9ada832.chunk.js",
+    "static/js/main.51f31a36.chunk.js"
+  ]
+}
