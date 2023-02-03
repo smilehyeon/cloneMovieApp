@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/cloneMovieApp/static/css/main.19710c7f.chunk.css",
-    "main.js": "/cloneMovieApp/static/js/main.1d09c3ca.chunk.js",
-    "main.js.map": "/cloneMovieApp/static/js/main.1d09c3ca.chunk.js.map",
-    "runtime-main.js": "/cloneMovieApp/static/js/runtime-main.6b143397.js",
-    "runtime-main.js.map": "/cloneMovieApp/static/js/runtime-main.6b143397.js.map",
-    "static/js/2.5aa88d8a.chunk.js": "/cloneMovieApp/static/js/2.5aa88d8a.chunk.js",
-    "static/js/2.5aa88d8a.chunk.js.map": "/cloneMovieApp/static/js/2.5aa88d8a.chunk.js.map",
+    "main.css": "/cloneMovieApp/static/css/main.73451755.css",
+    "main.js": "/cloneMovieApp/static/js/main.f59716e7.js",
+    "static/media/342453774050201.gif": "/cloneMovieApp/static/media/342453774050201.b0dcda85de9dfe034168.gif",
     "index.html": "/cloneMovieApp/index.html",
-    "static/css/main.19710c7f.chunk.css.map": "/cloneMovieApp/static/css/main.19710c7f.chunk.css.map",
-    "static/js/2.5aa88d8a.chunk.js.LICENSE.txt": "/cloneMovieApp/static/js/2.5aa88d8a.chunk.js.LICENSE.txt"
+    "main.73451755.css.map": "/cloneMovieApp/static/css/main.73451755.css.map",
+    "main.f59716e7.js.map": "/cloneMovieApp/static/js/main.f59716e7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b143397.js",
-    "static/js/2.5aa88d8a.chunk.js",
-    "static/css/main.19710c7f.chunk.css",
-    "static/js/main.1d09c3ca.chunk.js"
+    "static/css/main.73451755.css",
+    "static/js/main.f59716e7.js"
   ]
 }
