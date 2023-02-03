@@ -12,14 +12,16 @@ body,
     display: flex;
     width: 100%;
     justify-content: center;
+    
 }
 
 .card {
     padding: 40px;
     width: 80%;
-    background-color: ivory;
-
+    background-color: rgb(255, 236, 252);
+    display: flex;
 }
+
 
 .info {
     display: flex;
@@ -44,4 +46,24 @@ li {
 
 .summary {
     font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movieInfo {
+    display: block;
+    margin-left: 30px;
+}
+
+.movieInfo > p{
+    overflow: hidden;
+    word-wrap: break-word; 
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-line-clamp: 7; 
+    -webkit-box-orient: vertical;
+}
+
+h2{
+    color: rgb(206, 0, 110);
 }

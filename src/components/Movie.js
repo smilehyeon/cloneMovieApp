@@ -10,7 +10,7 @@ function Movie({ id, coverImg, title, summary }) {
                 <h2 className={styles.movie__title}>
                     <Link to={`/movie/${id}`}>{title}</Link>
                 </h2>
-                <p>{summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}</p>
+                <p>{summary.length === 0 ? <span>No Summary...</span> : (summary.length > 235 ? `${summary.slice(0, 235)}...` : summary)}</p>
             </div>
         </div>
     );

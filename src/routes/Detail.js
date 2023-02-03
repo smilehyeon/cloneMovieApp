@@ -43,6 +43,7 @@ function Detail() {
                                     runtime={movies.runtime}
                                     bg={movies.background_image_original}
                                     year={movies.year}
+                                    url={movies.url}
                                 />
                             )
                         }

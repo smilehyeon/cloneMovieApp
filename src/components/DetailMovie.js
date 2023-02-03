@@ -3,7 +3,7 @@
 import PropTypes from "prop-types";
 import styles from "./DetailMovie.module.css";
 
-function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg, year }) {
+function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg, year, url }) {
     return (
         <section className={styles.container} style={{ backgroundImage: `url(${bg})`, backgroundSize: `cover` }}>
 
@@ -11,7 +11,7 @@ function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg
                 <img src={coverImg} alt={title} />
 
 
-                <div>
+                <div className={styles.movieInfo}>
                     <h2>
                         {title}
                     </h2>
@@ -26,8 +26,8 @@ function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg
 
 
                     </div>
-                    <p className={styles.summary}>{summary}</p>
-
+                    <p className={styles.summary}>{summary.length === 0 ? <span>No Summary...</span> : summary}</p>
+                    {url === null ? <span></span> : <a href={url}>torrent download</a>}
                 </div>
             </div>
         </section>
