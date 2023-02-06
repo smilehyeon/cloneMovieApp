@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cloneMovieApp/static/css/main.185d7e1f.css",
+    "main.css": "/cloneMovieApp/static/css/main.4c84827c.css",
     "main.js": "/cloneMovieApp/static/js/main.cd1f78d2.js",
     "static/media/342453774050201.gif": "/cloneMovieApp/static/media/342453774050201.b0dcda85de9dfe034168.gif",
     "index.html": "/cloneMovieApp/index.html",
-    "main.185d7e1f.css.map": "/cloneMovieApp/static/css/main.185d7e1f.css.map",
+    "main.4c84827c.css.map": "/cloneMovieApp/static/css/main.4c84827c.css.map",
     "main.cd1f78d2.js.map": "/cloneMovieApp/static/js/main.cd1f78d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.185d7e1f.css",
+    "static/css/main.4c84827c.css",
     "static/js/main.cd1f78d2.js"
   ]
 }
