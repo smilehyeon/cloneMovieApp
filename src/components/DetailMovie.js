@@ -8,7 +8,7 @@ function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg
         <section className={styles.container} style={{ backgroundImage: `url(${bg})`, backgroundSize: `cover` }}>
 
             <div className={styles.card}>
-                <img src={coverImg} alt={title} />
+                <img src={coverImg} alt={title} className={styles.movie__img}/>
 
 
                 <div className={styles.movieInfo}>
@@ -26,8 +26,11 @@ function DetailMovie({ id, coverImg, title, summary, genres, rating, runtime, bg
 
 
                     </div>
+                    <div className={styles.info2}>
                     <p className={styles.summary}>{summary.length === 0 ? <span>No Summary...</span> : summary}</p>
                     {url === null ? <span></span> : <a href={url}>torrent download</a>}
+
+                    </div>
                 </div>
             </div>
         </section>

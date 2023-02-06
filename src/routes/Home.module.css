@@ -27,8 +27,24 @@
 
 @media screen and (max-width: 1090px) {
     .movies {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         width: 100%;
+    }
+}
+
+/* tablet 규격 */
+@media screen and (max-width: 1023px){
+    .movies {
+        grid-template-columns: 2fr;
+        width: 100%;
+    }
+}
+
+/* mobile 규격 */
+@media screen and (max-width: 540px){
+    .movies {
+        grid-template-columns: 1fr;
+        /* width: 100%; */
     }
 }
 
